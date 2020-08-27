@@ -8,6 +8,12 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME OpenAL
+    VERSION "1.20.1-97ecf58"
+    URL "https://github.com/kcat/openal-soft/archive/master.zip"
+    SHA1 "b3a3c53f7311983e692d43d542368c69a99ba7bf")
+
+hunter_add_version(
+    PACKAGE_NAME OpenAL
     VERSION "1.19.1"
     URL "https://github.com/kcat/openal-soft/archive/openal-soft-1.19.1.tar.gz"
     SHA1 "436ee636215555a351ac2ec3ea06611ad63d4bc7")
