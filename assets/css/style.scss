@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+    padding: 0;
+}
+
+.main-content {
+    min-width: 65%;
+    max-width: 65%;
+}
+
+table {
+    font-size: 90%;
+}
+
+.success {
+    @extend .sr;
+}
+
+.failure {
+    @extend .err;
+}
