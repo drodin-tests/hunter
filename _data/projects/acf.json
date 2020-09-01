@@ -1,0 +1,1298 @@
+[
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803834", 
+        "name": "acf analyze-cxx17 ubuntu-16.04", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803834", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803834", 
+        "completed_at": "2020-09-01T06:34:04Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzODM0", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:33:06.000Z", 
+                "started_at": "2020-09-01T06:33:04.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:33:10.000Z", 
+                "started_at": "2020-09-01T06:33:06.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:33:10.000Z", 
+                "started_at": "2020-09-01T06:33:10.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:33:11.000Z", 
+                "started_at": "2020-09-01T06:33:10.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:34:04.000Z", 
+                "started_at": "2020-09-01T06:33:11.000Z", 
+                "conclusion": "failure"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:34:04.000Z", 
+                "started_at": "2020-09-01T06:34:04.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:34:04.000Z", 
+                "started_at": "2020-09-01T06:34:04.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:34:04.000Z", 
+                "started_at": "2020-09-01T06:34:04.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:33:04Z", 
+        "id": 1054803834, 
+        "conclusion": "failure"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803811", 
+        "name": "acf android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-16.04", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803811", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803811", 
+        "completed_at": "2020-09-01T06:48:35Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzODEx", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:33:07.000Z", 
+                "started_at": "2020-09-01T06:33:04.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:33:11.000Z", 
+                "started_at": "2020-09-01T06:33:07.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:33:12.000Z", 
+                "started_at": "2020-09-01T06:33:11.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:33:12.000Z", 
+                "started_at": "2020-09-01T06:33:12.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:48:34.000Z", 
+                "started_at": "2020-09-01T06:33:12.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:48:34.000Z", 
+                "started_at": "2020-09-01T06:48:34.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:48:35.000Z", 
+                "started_at": "2020-09-01T06:48:34.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:48:35.000Z", 
+                "started_at": "2020-09-01T06:48:35.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:33:04Z", 
+        "id": 1054803811, 
+        "conclusion": "success"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803772", 
+        "name": "acf clang-cxx17 ubuntu-16.04", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803772", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803772", 
+        "completed_at": "2020-09-01T06:55:59Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzNzcy", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:33:08.000Z", 
+                "started_at": "2020-09-01T06:33:06.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:33:12.000Z", 
+                "started_at": "2020-09-01T06:33:08.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:33:12.000Z", 
+                "started_at": "2020-09-01T06:33:12.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:33:13.000Z", 
+                "started_at": "2020-09-01T06:33:12.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:55:58.000Z", 
+                "started_at": "2020-09-01T06:33:13.000Z", 
+                "conclusion": "failure"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:55:58.000Z", 
+                "started_at": "2020-09-01T06:55:58.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:55:58.000Z", 
+                "started_at": "2020-09-01T06:55:58.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:55:59.000Z", 
+                "started_at": "2020-09-01T06:55:58.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:33:06Z", 
+        "id": 1054803772, 
+        "conclusion": "failure"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803791", 
+        "name": "acf gcc-7-cxx17 ubuntu-16.04", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803791", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803791", 
+        "completed_at": "2020-09-01T06:58:38Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzNzkx", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:33:08.000Z", 
+                "started_at": "2020-09-01T06:33:05.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:33:12.000Z", 
+                "started_at": "2020-09-01T06:33:08.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:33:12.000Z", 
+                "started_at": "2020-09-01T06:33:12.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:33:13.000Z", 
+                "started_at": "2020-09-01T06:33:12.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:33:13.000Z", 
+                "conclusion": "cancelled"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:58:37.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:58:38.000Z", 
+                "started_at": "2020-09-01T06:58:37.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:58:38.000Z", 
+                "started_at": "2020-09-01T06:58:38.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:33:05Z", 
+        "id": 1054803791, 
+        "conclusion": "cancelled"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803956", 
+        "name": "acf ios-nocodesign-13-2-dep-9-3 macos-10.15", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803956", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803956", 
+        "completed_at": "2020-09-01T06:37:36Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzOTU2", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:34:05.000Z", 
+                "started_at": "2020-09-01T06:34:03.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:34:11.000Z", 
+                "started_at": "2020-09-01T06:34:05.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:34:11.000Z", 
+                "started_at": "2020-09-01T06:34:11.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:34:13.000Z", 
+                "started_at": "2020-09-01T06:34:11.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:37:35.000Z", 
+                "started_at": "2020-09-01T06:34:13.000Z", 
+                "conclusion": "failure"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:37:35.000Z", 
+                "started_at": "2020-09-01T06:37:35.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:37:36.000Z", 
+                "started_at": "2020-09-01T06:37:35.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:37:36.000Z", 
+                "started_at": "2020-09-01T06:37:36.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:34:03Z", 
+        "id": 1054803956, 
+        "conclusion": "failure"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054804024", 
+        "name": "acf mingw-cxx17 windows-2016", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054804024", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054804024", 
+        "completed_at": "2020-09-01T06:45:13Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODA0MDI0", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:34:18.000Z", 
+                "started_at": "2020-09-01T06:34:14.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:34:33.000Z", 
+                "started_at": "2020-09-01T06:34:18.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:34:34.000Z", 
+                "started_at": "2020-09-01T06:34:33.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:34:52.000Z", 
+                "started_at": "2020-09-01T06:34:34.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:34:52.000Z", 
+                "started_at": "2020-09-01T06:34:52.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:45:10.000Z", 
+                "started_at": "2020-09-01T06:34:52.000Z", 
+                "conclusion": "failure"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:45:13.000Z", 
+                "started_at": "2020-09-01T06:45:10.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:45:13.000Z", 
+                "started_at": "2020-09-01T06:45:13.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:34:14Z", 
+        "id": 1054804024, 
+        "conclusion": "failure"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054804039", 
+        "name": "acf msys-cxx17 windows-2016", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054804039", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054804039", 
+        "completed_at": "2020-09-01T06:58:35Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODA0MDM5", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:34:38.000Z", 
+                "started_at": "2020-09-01T06:34:35.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:34:59.000Z", 
+                "started_at": "2020-09-01T06:34:38.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:34:59.000Z", 
+                "started_at": "2020-09-01T06:34:59.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:35:16.000Z", 
+                "started_at": "2020-09-01T06:34:59.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:35:16.000Z", 
+                "started_at": "2020-09-01T06:35:16.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:58:32.000Z", 
+                "started_at": "2020-09-01T06:35:16.000Z", 
+                "conclusion": "cancelled"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:58:35.000Z", 
+                "started_at": "2020-09-01T06:58:32.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:58:35.000Z", 
+                "started_at": "2020-09-01T06:58:35.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:34:35Z", 
+        "id": 1054804039, 
+        "conclusion": "cancelled"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803844", 
+        "name": "acf ninja-vs-15-2017-win64-cxx17 windows-2016", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803844", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803844", 
+        "completed_at": "2020-09-01T06:58:27Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzODQ0", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:34:51.000Z", 
+                "started_at": "2020-09-01T06:34:47.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:35:14.000Z", 
+                "started_at": "2020-09-01T06:34:51.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:35:15.000Z", 
+                "started_at": "2020-09-01T06:35:14.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:35:35.000Z", 
+                "started_at": "2020-09-01T06:35:15.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:35:35.000Z", 
+                "started_at": "2020-09-01T06:35:35.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:58:24.000Z", 
+                "started_at": "2020-09-01T06:35:35.000Z", 
+                "conclusion": "cancelled"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:58:27.000Z", 
+                "started_at": "2020-09-01T06:58:24.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:58:27.000Z", 
+                "started_at": "2020-09-01T06:58:27.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:34:47Z", 
+        "id": 1054803844, 
+        "conclusion": "cancelled"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803846", 
+        "name": "acf nmake-vs-15-2017-win64-cxx17 windows-2016", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803846", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803846", 
+        "completed_at": "2020-09-01T06:43:04Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzODQ2", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:35:00.000Z", 
+                "started_at": "2020-09-01T06:34:57.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:35:25.000Z", 
+                "started_at": "2020-09-01T06:35:00.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:35:25.000Z", 
+                "started_at": "2020-09-01T06:35:25.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:35:49.000Z", 
+                "started_at": "2020-09-01T06:35:25.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:35:49.000Z", 
+                "started_at": "2020-09-01T06:35:49.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:43:01.000Z", 
+                "started_at": "2020-09-01T06:35:49.000Z", 
+                "conclusion": "failure"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:43:04.000Z", 
+                "started_at": "2020-09-01T06:43:01.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:43:04.000Z", 
+                "started_at": "2020-09-01T06:43:04.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:34:57Z", 
+        "id": 1054803846, 
+        "conclusion": "failure"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803865", 
+        "name": "acf osx-10-13-cxx14 macos-10.15", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803865", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803865", 
+        "completed_at": "2020-09-01T06:58:38Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzODY1", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:35:13.000Z", 
+                "started_at": "2020-09-01T06:35:11.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:35:21.000Z", 
+                "started_at": "2020-09-01T06:35:13.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:35:21.000Z", 
+                "started_at": "2020-09-01T06:35:21.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:35:29.000Z", 
+                "started_at": "2020-09-01T06:35:21.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:58:36.000Z", 
+                "started_at": "2020-09-01T06:35:29.000Z", 
+                "conclusion": "cancelled"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:58:36.000Z", 
+                "started_at": "2020-09-01T06:58:36.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:58:36.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:58:38.000Z", 
+                "started_at": "2020-09-01T06:58:37.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:35:11Z", 
+        "id": 1054803865, 
+        "conclusion": "cancelled"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803924", 
+        "name": "acf osx-10-13-make-cxx14 macos-10.15", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803924", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803924", 
+        "completed_at": "2020-09-01T06:58:38Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzOTI0", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:35:58.000Z", 
+                "started_at": "2020-09-01T06:35:56.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:36:04.000Z", 
+                "started_at": "2020-09-01T06:35:58.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:36:04.000Z", 
+                "started_at": "2020-09-01T06:36:04.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:36:06.000Z", 
+                "started_at": "2020-09-01T06:36:04.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:58:36.000Z", 
+                "started_at": "2020-09-01T06:36:06.000Z", 
+                "conclusion": "cancelled"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:58:36.000Z", 
+                "started_at": "2020-09-01T06:58:36.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:58:36.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:58:38.000Z", 
+                "started_at": "2020-09-01T06:58:37.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:35:56Z", 
+        "id": 1054803924, 
+        "conclusion": "cancelled"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803864", 
+        "name": "acf sanitize-address-cxx17 ubuntu-16.04", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803864", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803864", 
+        "completed_at": "2020-09-01T06:58:37Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzODY0", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:35:24.000Z", 
+                "started_at": "2020-09-01T06:35:22.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:35:27.000Z", 
+                "started_at": "2020-09-01T06:35:24.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:35:27.000Z", 
+                "started_at": "2020-09-01T06:35:27.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:35:28.000Z", 
+                "started_at": "2020-09-01T06:35:27.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:35:28.000Z", 
+                "conclusion": "cancelled"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:58:37.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:58:37.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:58:37.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:35:22Z", 
+        "id": 1054803864, 
+        "conclusion": "cancelled"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803882", 
+        "name": "acf sanitize-leak-cxx17 ubuntu-16.04", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803882", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803882", 
+        "completed_at": "2020-09-01T06:58:36Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzODgy", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:35:40.000Z", 
+                "started_at": "2020-09-01T06:35:38.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:35:52.000Z", 
+                "started_at": "2020-09-01T06:35:40.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:35:52.000Z", 
+                "started_at": "2020-09-01T06:35:52.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:35:53.000Z", 
+                "started_at": "2020-09-01T06:35:52.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:58:35.000Z", 
+                "started_at": "2020-09-01T06:35:53.000Z", 
+                "conclusion": "cancelled"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:58:35.000Z", 
+                "started_at": "2020-09-01T06:58:35.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:58:36.000Z", 
+                "started_at": "2020-09-01T06:58:35.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:58:36.000Z", 
+                "started_at": "2020-09-01T06:58:36.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:35:38Z", 
+        "id": 1054803882, 
+        "conclusion": "cancelled"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803904", 
+        "name": "acf sanitize-thread-cxx17 ubuntu-16.04", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803904", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803904", 
+        "completed_at": "2020-09-01T06:58:38Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzOTA0", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:36:44.000Z", 
+                "started_at": "2020-09-01T06:36:42.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:36:48.000Z", 
+                "started_at": "2020-09-01T06:36:44.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:36:48.000Z", 
+                "started_at": "2020-09-01T06:36:48.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:36:49.000Z", 
+                "started_at": "2020-09-01T06:36:48.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:36:49.000Z", 
+                "conclusion": "cancelled"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:58:37.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:58:38.000Z", 
+                "started_at": "2020-09-01T06:58:37.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:58:38.000Z", 
+                "started_at": "2020-09-01T06:58:38.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:36:42Z", 
+        "id": 1054803904, 
+        "conclusion": "cancelled"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054803988", 
+        "name": "acf vs-14-2015-sdk-8-1 windows-2016", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054803988", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054803988", 
+        "completed_at": "2020-09-01T06:58:37Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODAzOTg4", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:37:49.000Z", 
+                "started_at": "2020-09-01T06:37:45.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:38:06.000Z", 
+                "started_at": "2020-09-01T06:37:49.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:38:06.000Z", 
+                "started_at": "2020-09-01T06:38:06.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:38:33.000Z", 
+                "started_at": "2020-09-01T06:38:06.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:38:33.000Z", 
+                "started_at": "2020-09-01T06:38:33.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:58:32.000Z", 
+                "started_at": "2020-09-01T06:38:33.000Z", 
+                "conclusion": "cancelled"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:58:32.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:58:37.000Z", 
+                "started_at": "2020-09-01T06:58:37.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:37:45Z", 
+        "id": 1054803988, 
+        "conclusion": "cancelled"
+    }, 
+    {
+        "status": "completed", 
+        "check_run_url": "https://api.github.com/repos/drodin-tests/hunter/check-runs/1054804002", 
+        "name": "acf vs-15-2017-win64-cxx17 windows-2016", 
+        "run_id": 233871728, 
+        "url": "https://api.github.com/repos/drodin-tests/hunter/actions/jobs/1054804002", 
+        "html_url": "https://github.com/drodin-tests/hunter/runs/1054804002", 
+        "completed_at": "2020-09-01T06:58:36Z", 
+        "run_url": "https://api.github.com/repos/drodin-tests/hunter/actions/runs/233871728", 
+        "node_id": "MDg6Q2hlY2tSdW4xMDU0ODA0MDAy", 
+        "steps": [
+            {
+                "status": "completed", 
+                "name": "Set up job", 
+                "number": 1, 
+                "completed_at": "2020-09-01T06:37:50.000Z", 
+                "started_at": "2020-09-01T06:37:49.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Git checkout with submodules", 
+                "number": 2, 
+                "completed_at": "2020-09-01T06:38:14.000Z", 
+                "started_at": "2020-09-01T06:37:50.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Set up Python", 
+                "number": 3, 
+                "completed_at": "2020-09-01T06:38:14.000Z", 
+                "started_at": "2020-09-01T06:38:14.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Upgrade pip", 
+                "number": 4, 
+                "completed_at": "2020-09-01T06:38:40.000Z", 
+                "started_at": "2020-09-01T06:38:14.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Unix", 
+                "number": 5, 
+                "completed_at": "2020-09-01T06:38:40.000Z", 
+                "started_at": "2020-09-01T06:38:40.000Z", 
+                "conclusion": "skipped"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Build on Windows", 
+                "number": 6, 
+                "completed_at": "2020-09-01T06:58:32.000Z", 
+                "started_at": "2020-09-01T06:38:40.000Z", 
+                "conclusion": "cancelled"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Post Git checkout with submodules", 
+                "number": 12, 
+                "completed_at": "2020-09-01T06:58:36.000Z", 
+                "started_at": "2020-09-01T06:58:32.000Z", 
+                "conclusion": "success"
+            }, 
+            {
+                "status": "completed", 
+                "name": "Complete job", 
+                "number": 13, 
+                "completed_at": "2020-09-01T06:58:36.000Z", 
+                "started_at": "2020-09-01T06:58:36.000Z", 
+                "conclusion": "success"
+            }
+        ], 
+        "head_sha": "7ba1b0be8a621989b58a2ff3746129434a4f73e2", 
+        "started_at": "2020-09-01T06:37:49Z", 
+        "id": 1054804002, 
+        "conclusion": "cancelled"
+    }
+]
